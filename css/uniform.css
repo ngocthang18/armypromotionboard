@@ -1,0 +1,27 @@
+/*uniform*/
+.uniform {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+.uniform__heading {
+  color: var(--color-heading);
+}
+.uniform_description {
+  margin-left: 0.5rem;
+}
+.uniform__images {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 760px) {
+  .uniform__photo {
+    flex-shrink: 0.8;
+    width: 500px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .uniform__photo {
+    flex-shrink: 0.8;
+    width: 420px;
+  }
+}

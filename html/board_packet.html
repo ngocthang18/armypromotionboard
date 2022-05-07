@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BOARD SUBJECT_ARMY BOARD</title>
+    <title>ARMY STUDY GUIDANCE</title>
     <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/styles_home.css" />
+    <link rel="stylesheet" href="/css/board_packet.css" />
+
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <script src="main.js"></script>
   </head>
   <body>
     <div class="header-wrapper">
@@ -29,34 +31,164 @@
         </p>
       </div>
       <nav class="nav">
-        <ul class="list">
+        <ul class="list list--inline">
           <li class="nav__items"><a href="/html/about_us.html">About Us</a></li>
           <li class="nav__items">
             <a href="/html/board_subject.html">Board Subjects</a>
           </li>
           <li class="nav__items"><a href="/html/uniform.html">Uniform</a></li>
-          <li class="nav__items"><a href="board_packet.html">Board Packet</a></li>
+          <li class="nav__items">
+            <a href="board_packet.html">Board Packet</a>
+          </li>
           <li class="nav__items">PMCS</li>
           <li class="nav__items">Feedback</li>
         </ul>
       </nav>
     </div>
-        <h2>The Promotion Board Packet</h2>
-        <h3>The first step to going to the board is getting all your documents in order to create a nice board packet so it can be submitted to your S-1 or whoever collects them. Whether you are attending a soldier of the month board, competition board, or promotion board, you will most likely be required to turn in a board packet.</h3>
-        <p>Your S-1 or first-line supervisor should have a checklist available so you know exactly what you need when turning in your paperwork. A board packet checklist can be found in The Board Bible. To get you started, here are a few things that need to be available for your board packet:</p>
-        <p>Biography– Create a biography that explains to the board members where you have been and where you plan to go. This is one of the most important parts of the board so make sure you put in the extra effort to rehearse saying this information.</p>
-        <p>APFT Card– Have a current APFT card ready. Don’t wait until the last minute or try to ride out the last month of a record APFT test. I know of a situation where a soldier’s APFT card expired on the day of the board so the president of the board had him perform the sit-up and push-up events right there on the spot.</p>    
-        <p>Promotion Points worksheet (HRC) – go to the HRC site  and update your DA Form 3355. You will review this with your S-1 before attendance at the board but it’s highly recommended that update as much as possible. Updating the info yourself will also help to be familiar with any issues that you know need correction. NCOsupport.com has a handy Promotion Points Calculator to estimate your current points.</p>
-        <p>College transcripts–  Have your college mail a copy of your OFFICIAL transcripts so they can be submitted to your S-1. They can be ordered directly though the school (Recommended) or a third party. It’s fairly cheap to request a copy, I think it cost me $5 to have my transcripts mailed to me. This needs to be done ASAP so they arrive in time for the update to your DA Form 3355.</p>
-        <p>ERB –  Which is now being changed over to SRB (not much difference), should be reviewed by you sponsor and most importantly by you. A complete guide to correcting the ERB is explained in The Board Bible along with pictures and annotations explaining what exactly needs to be changed. There is also a checklist that gives you step by step instructions on what to review.    </p>
-        <p>Nomination Memo or Consideration Memo– This is used to provide information to the commander much like an ERB/SRB would. Check with your S-1 to see if they have a template or feel free to use the example I have posted.</p>
-        <p>DD Form 2266 Hometown News Release – This is just a form that is filled out for use if you hit the big time and happen to be featured on the news for your stellar performance. Make sure to thank me for all your success.</p>
-        <p>Personal Data Sheet –  This is a common form used in leader’s books and other various forms of soldier tracking.
-        </p>
-        <p>Other types of information that may need to be included in the board packet are: copy of training records, copy of awards, copy of Certificates of Achievement (COAs)</p>
-        <h2>The MOI</h2>
-        <h3>The Memorandum of Instruction (MOI) states everything a soldier needs to know about the promotion board. It will list the subjects that will be covered at the board, who the board members are, and various other information that will guide you along your journey of preparation. The MOI may also gives information pertaining to any additional events that may take place outside of the board like an APFT or ruck march. Take a look at the example I provided below that can also be found in The Board Bible.</h3>
-        <img src="/images/moi.jpg">
+    <div class="board_packet">
+      <h2>The Promotion Board Packet</h2>
+      <h3>
+        The first step to going to the board is getting all your documents in
+        order to create a nice board packet so it can be submitted to your S-1
+        or whoever collects them. Whether you are attending a soldier of the
+        month board, competition board, or promotion board, you will most likely
+        be required to turn in a board packet.
+      </h3>
+      <p>
+        Your S-1 or first-line supervisor should have a checklist available so
+        you know exactly what you need when turning in your paperwork. A board
+        packet checklist can be found in The Board Bible. To get you started,
+        here are a few things that need to be available for your board packet:
+      </p>
+      <p>
+        Biography– Create a biography that explains to the board members where
+        you have been and where you plan to go. This is one of the most
+        important parts of the board so make sure you put in the extra effort to
+        rehearse saying this information.
+      </p>
+      <p>
+        APFT Card– Have a current APFT card ready. Don’t wait until the last
+        minute or try to ride out the last month of a record APFT test. I know
+        of a situation where a soldier’s APFT card expired on the day of the
+        board so the president of the board had him perform the sit-up and
+        push-up events right there on the spot.
+      </p>
+      <p>
+        Promotion Points worksheet (HRC) – go to the HRC site and update your DA
+        Form 3355. You will review this with your S-1 before attendance at the
+        board but it’s highly recommended that update as much as possible.
+        Updating the info yourself will also help to be familiar with any issues
+        that you know need correction. NCOsupport.com has a handy Promotion
+        Points Calculator to estimate your current points.
+      </p>
+      <p>
+        College transcripts– Have your college mail a copy of your OFFICIAL
+        transcripts so they can be submitted to your S-1. They can be ordered
+        directly though the school (Recommended) or a third party. It’s fairly
+        cheap to request a copy, I think it cost me $5 to have my transcripts
+        mailed to me. This needs to be done ASAP so they arrive in time for the
+        update to your DA Form 3355.
+      </p>
+      <p>
+        ERB – Which is now being changed over to SRB (not much difference),
+        should be reviewed by you sponsor and most importantly by you. A
+        complete guide to correcting the ERB is explained in The Board Bible
+        along with pictures and annotations explaining what exactly needs to be
+        changed. There is also a checklist that gives you step by step
+        instructions on what to review.
+      </p>
+      <p>
+        Nomination Memo or Consideration Memo– This is used to provide
+        information to the commander much like an ERB/SRB would. Check with your
+        S-1 to see if they have a template or feel free to use the example I
+        have posted.
+      </p>
+      <p>
+        DD Form 2266 Hometown News Release – This is just a form that is filled
+        out for use if you hit the big time and happen to be featured on the
+        news for your stellar performance. Make sure to thank me for all your
+        success.
+      </p>
+      <p>
+        Personal Data Sheet – This is a common form used in leader’s books and
+        other various forms of soldier tracking.
+      </p>
+      <p>
+        Other types of information that may need to be included in the board
+        packet are: copy of training records, copy of awards, copy of
+        Certificates of Achievement (COAs)
+      </p>
+      <h2>The MOI</h2>
+      <h3>
+        The Memorandum of Instruction (MOI) states everything a soldier needs to
+        know about the promotion board. It will list the subjects that will be
+        covered at the board, who the board members are, and various other
+        information that will guide you along your journey of preparation. The
+        MOI may also gives information pertaining to any additional events that
+        may take place outside of the board like an APFT or ruck march. Take a
+        look at the example I provided below that can also be found in The Board
+        Bible.
+      </h3>
+      <div class="board_packet_photo">
+        <img class="board_packet_photo_images" src="/images/moi.jpg" />
+      </div>
     </div>
-    </body>
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sessions">
+        <session class="colappsible footer__session">
+          <header class="colappsible__header">
+            <h2 class="colappsible__heading footer__heading">CSS Complex</h2>
+            <svg class="icon icon--primary colappsible__chevron">
+              <use xlink:href="/images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="colapssible__content">
+            <ul class="list">
+              <li class="list_item">HTML</li>
+              <li class="list_item">CSS</li>
+              <li class="list_item">JAVASCRIPT</li>
+              <li class="list_item">PYTHON</li>
+            </ul>
+          </div>
+        </session>
+        <session class="colappsible footer__session">
+          <header class="colappsible__header">
+            <h2 class="colappsible__heading footer__heading">CSS Complex</h2>
+            <svg class="icon icon--primary colappsible__chevron">
+              <use xlink:href="/images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="colapssible__content">
+            <ul class="list">
+              <li class="list_item">HTML</li>
+              <li class="list_item">CSS</li>
+              <li class="list_item">JAVASCRIPT</li>
+              <li class="list_item">PYTHON</li>
+            </ul>
+          </div>
+        </session>
+        <session class="colappsible footer__session">
+          <header class="colappsible__header">
+            <h2 class="colappsible__heading footer__heading">CSS Complex</h2>
+            <svg class="icon icon--primary colappsible__chevron">
+              <use xlink:href="/images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="colapssible__content">
+            <ul class="list">
+              <li class="list_item">HTML</li>
+              <li class="list_item">CSS</li>
+              <li class="list_item">JAVASCRIPT</li>
+              <li class="list_item">PYTHON</li>
+            </ul>
+          </div>
+        </session>
+        <session class="footer__brand">
+          <img src="/images/logo.svg" />
+          <p class="footer__coppyright">Copyright 2020 Micheal Nguyen</p>
+        </session>
+      </div>
+      <script src="/css/main.js"></script>
+    </footer>
+  </body>
 </html>

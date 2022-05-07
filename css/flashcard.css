@@ -1,0 +1,20 @@
+.front,
+.back {
+  width: 100%;
+  min-height: 300px;
+  display: table;
+}
+
+.front h3,
+.back p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.fast {
+  animation-duration: 0.5s;
+}
+.flashcard {
+  cursor: pointer;
+}

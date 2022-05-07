@@ -1,0 +1,10 @@
+.board_packet {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: justify;
+}
+.board_packet_photo {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 1;
+}

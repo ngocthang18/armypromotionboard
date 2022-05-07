@@ -1,0 +1,10 @@
+.subject_board_header {
+  display: flex;
+  justify-content: center;
+}
+.subject_board .grid {
+  justify-items: center;
+}
+
+.list_items:hover {
+}

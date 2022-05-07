@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BOARD SUBJECT_ARMY BOARD</title>
+    <title>ARMY STUDY GUIDANCE</title>
     <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/styles_home.css" />
+    <link rel="stylesheet" href="/css/style_subject.css" />
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <script src="main.js"></script>
   </head>
   <body>
     <div class="header-wrapper">
@@ -29,32 +30,34 @@
         </p>
       </div>
       <nav class="nav">
-        <ul class="list">
+        <ul class="list list--inline">
           <li class="nav__items"><a href="/html/about_us.html">About Us</a></li>
           <li class="nav__items">
             <a href="/html/board_subject.html">Board Subjects</a>
           </li>
           <li class="nav__items"><a href="/html/uniform.html">Uniform</a></li>
-           <li class="nav__items"><a href="board_packet.html">Board Packet</a></li>
-          <li class="nav__items">PMCS</li>
+          <li class="nav__items">
+            <a href="board_packet.html">Board Packet</a>
+          </li>
+          <li class="nav__items">PMC</li>
           <li class="nav__items">Feedback</li>
         </ul>
       </nav>
     </div>
-    <div>
-      <div>
+    <div class="subject_board">
+      <div class="subject_board_header" >
         <h2 class="introduce_heading">BOARD SUBJECTS</h2>
       </div>
-      <div class="grid grid--1x2 subject_board">
+      <div class="grid grid--1x2">
         <ul class="subject_board__list">
-          <li>
+          <li class="list_items">
             <a href="/html/pack_question/question_board_adp1.html"
               >ADP 1 The Army</a
             >
           </li>
           <li>
-            <a href="/html/pack_question/question_board_opertion.html"
-              >ADP 1-02 Operational Terms and Military Symbols</a
+            <a href="/html/pack_question/question_board_opertion.html">
+              ADP 1-02 Operational Terms and Military Symbols</a
             >
           </li>
           <li>
@@ -80,7 +83,7 @@
           <li>
             <a href="pack_question/question_board_fires.html">ADP 3-09 Fires</a>
           </li>
-          <li><a href="pack_question/question_adp_3_28.html">>ADP 3-28 Defense Support of Civil Authorities</a</li>
+          <li><a href="pack_question/question_adp_3_28.html">ADP 3-28 Defense Support of Civil Authorities</a</li>
           <li><a href="pack_question/question_adp_3_37.html">ADP 3-37 Protection</a></li>
           <li><a href="pack_question/question_adp_3_90.html">ADP 3-90 Offense & Defense</a></li>
           <li><a href="pack_question/question_adp_4_0.html">ADP 4-0 Sustainment</a></li>
@@ -116,5 +119,62 @@
         </ul>
       </div>
     </div>
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sessions">
+        <session class="colappsible footer__session">
+          <header class="colappsible__header">
+            <h2 class="colappsible__heading footer__heading">CSS Complex</h2>
+            <svg class="icon icon--primary colappsible__chevron">
+              <use xlink:href="/images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="colapssible__content">
+            <ul class="list">
+              <li class="list_item">HTML</li>
+              <li class="list_item">CSS</li>
+              <li class="list_item">JAVASCRIPT</li>
+              <li class="list_item">PYTHON</li>
+            </ul>
+          </div>
+        </session>
+        <session class="colappsible footer__session">
+          <header class="colappsible__header">
+            <h2 class="colappsible__heading footer__heading">CSS Complex</h2>
+            <svg class="icon icon--primary colappsible__chevron">
+              <use xlink:href="/images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="colapssible__content">
+            <ul class="list">
+              <li class="list_item">HTML</li>
+              <li class="list_item">CSS</li>
+              <li class="list_item">JAVASCRIPT</li>
+              <li class="list_item">PYTHON</li>
+            </ul>
+          </div>
+        </session>
+        <session class="colappsible footer__session">
+          <header class="colappsible__header">
+            <h2 class="colappsible__heading footer__heading">CSS Complex</h2>
+            <svg class="icon icon--primary colappsible__chevron">
+              <use xlink:href="/images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="colapssible__content">
+            <ul class="list">
+              <li class="list_item">HTML</li>
+              <li class="list_item">CSS</li>
+              <li class="list_item">JAVASCRIPT</li>
+              <li class="list_item">PYTHON</li>
+            </ul>
+          </div>
+        </session>
+        <session class="footer__brand">
+          <img src="/images/logo.svg" />
+          <p class="footer__coppyright">Copyright 2020 Micheal Nguyen</p>
+        </session>
+      </div>
+      <script src="/css/main.js"></script>
+    </footer>
   </body>
 </html>

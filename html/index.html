@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ARMY STUDY GUIDANCE</title>
     <link rel="stylesheet" href="/css/styles.css" />
+
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,32 +14,37 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <script src="main.js"></script>
   </head>
   <body>
     <div class="header-wrapper">
       <div class="header">
-        <a href="#"><img class="icon__logo" src="/images/logo_promotion.jpeg" /></a>
-        <h2 class="header__heading"><a href="/html/index.html">ARMY PROMOTION BOARD</a></h2>
+        <a href="#"
+          ><img class="icon__logo" src="/images/logo_promotion.jpeg"
+        /></a>
+        <h2 class="header__heading">
+          <a href="/html/index.html">ARMY PROMOTION BOARD</a>
+        </h2>
         <p class="header_introduce">
           Voice for the Army - Support for the Soldier
         </p>
       </div>
       <nav class="nav">
-        <ul class="list">
+        <ul class="list list--inline">
           <li class="nav__items"><a href="/html/about_us.html">About Us</a></li>
           <li class="nav__items">
-          <a href="/html/board_subject.html">Board Subjects</a>
+            <a href="/html/board_subject.html">Board Subjects</a>
           </li>
           <li class="nav__items"><a href="/html/uniform.html">Uniform</a></li>
-          <li class="nav__items"><a href="board_packet.html">Board Packet</a></li>
-          <li class="nav__items">PMC</li>
+          <li class="nav__items">
+            <a href="board_packet.html">Board Packet</a>
+          </li>
           <li class="nav__items">Feedback</li>
         </ul>
       </nav>
     </div>
     <div class="background">
       <img class="background__page" src="/images/promotion_board.jpeg" />
-      <h3 class="background__heading">NEXT STEP TO YOUR CAREER</h3>
     </div>
     <div class="introduce">
       <h3 class="introduce__heading">ARMY PROMOTION BOARD</h3>
@@ -82,41 +88,58 @@
           We only work with highly rated mechanics. All services are backed by
           our 12-month / 12,000-mile warranty.
         </p>
-      </div> 
+      </div>
     </div>
-    <div class="card__parent grid grid--1x2">
-      <div style="width: 25%; padding: 4rem">
-        <div class="card card--primary">
-          <header class="card__header">SUBJECT BOARD</header>
-          <div class="card__body">
-            <ul class="card__list">
-              <li>ADP 1 The Army</li>
-              <li>ADP 1-02 Operational Terms</li>
-              <li>ADP 2-0 Intelligence</li>
-              <li>ADP 3-0 Unified Land.</li>
-              <li class="a_list">........</li>
-              <button class="btn btn--primary">STUDY Now</button>
-            </ul>
+    <section class="block container block-plans">
+      <div class="grid grid--1x2">
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan_name">Entry</h3>
+              <splan class="plan_price">$14</splan>
+              <splan class="plan_price_cycle">/ month</splan>
+              <span class="badge badge--secondary badge--small">10%off</span>
+              <span class="plan_description">
+                That's good plan for starter
+              </span>
+            </header>
+            <div class="card__body">
+              <ul class="list">
+                <li class="list_item">HTML</li>
+                <li class="list_item">CSS</li>
+                <li class="list_item">JAVASCRIPT</li>
+                <li class="list_item">PYTHON</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Buy Bow</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan plan--polular">
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="plan_name">Entry</h3>
+              <splan class="plan_price">$14</splan>
+              <splan class="plan_price_cycle">/ month</splan>
+              <span class="badge badge--secondary badge--small">10%off</span>
+              <span class="plan_description">
+                That's good plan for starter
+              </span>
+            </header>
+            <div class="card__body">
+              <ul class="list">
+                <li class="list_item">HTML</li>
+                <li class="list_item">CSS</li>
+                <li class="list_item">JAVASCRIPT</li>
+                <li class="list_item">PYTHON</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Buy Bow</button>
+            </div>
           </div>
         </div>
       </div>
-      <div style="width: 25%; padding: 4rem">
-        <div class="card card--secondary">
-          <header class="card__header">FLASH CARD</header>
-          <div class="card__body">
-            <ul class="card__list">
-              <li>EASY</li>
-              <li>MORE UNDERSTAND</li>
-              <li>LEARN FAST</li>
-              <li>DIFFULCUT</li>
-              <li class="a_list">........</li>
-              <button class="btn btn--primary">STUDY Now</button>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="grid grid--1x2 subject_board">
+    </section>
+
+    <div class="grid grid--1x3 subject_board">
       <div>
         <h3 class="subject_board__heading">SUBJECT PROMOTION BOARD</h3>
         <img class="subjectg_board__photo" src="/images/planning.jpeg" />
@@ -157,11 +180,7 @@
     <div class="card testimonial">
       <div class="grid grid--1x2">
         <div class="testimonial_image">
-          <img
-            class="testimonial_images"
-            src="/images/person.jpeg"
-            alt="xxx"
-          />
+          <img class="testimonial_images" src="/images/person.jpeg" alt="xxx" />
         </div>
         <blockquote class="quote">
           <p class="quote_text">
@@ -175,80 +194,62 @@
         </blockquote>
       </div>
     </div>
-    
-    </div>
     <footer class="block block--dark footer">
-      <div class="container grid footer__sections">
-        <section class="collapsible collapsible--expanded footer__section">
-          <div class="collapsible__header">
-            <h2 class="collapsible__heading footer__heading">Products</h2>
-            <svg class="icon icon--white collapsible__chevron">
-              <use href="images/sprite.svg#chevron"></use>
+      <div class="container grid footer__sessions">
+        <session class="colappsible footer__session">
+          <header class="colappsible__header">
+            <h2 class="colappsible__heading footer__heading">CSS Complex</h2>
+            <svg class="icon icon--primary colappsible__chevron">
+              <use xlink:href="/images/sprite.svg#chevron"></use>
             </svg>
-          </div>
-          <div class="collapsible__content">
-            <ul class="list1">
-              <li><a href="#">Website Hosting</a></li>
-              <li><a href="#">Free Automated Wordpress</a></li>
-              <li><a href="#">Migrations</a></li>
+          </header>
+          <div class="colapssible__content">
+            <ul class="list">
+              <li class="list_item">HTML</li>
+              <li class="list_item">CSS</li>
+              <li class="list_item">JAVASCRIPT</li>
+              <li class="list_item">PYTHON</li>
             </ul>
           </div>
-        </section>
-        <section class="collapsible footer__section">
-          <div class="collapsible__header">
-            <h2 class="collapsible__heading footer__heading">Company</h2>
-            <svg class="icon icon--white collapsible__chevron">
-              <use href="images/sprite.svg#chevron"></use>
+        </session>
+        <session class="colappsible footer__session">
+          <header class="colappsible__header">
+            <h2 class="colappsible__heading footer__heading">CSS Complex</h2>
+            <svg class="icon icon--primary colappsible__chevron">
+              <use xlink:href="/images/sprite.svg#chevron"></use>
             </svg>
-          </div>
-          <div class="collapsible__content">
-            <ul class="list1">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Affiliates</a></li>
-              <li><a href="#">Blog</a></li>
+          </header>
+          <div class="colapssible__content">
+            <ul class="list">
+              <li class="list_item">HTML</li>
+              <li class="list_item">CSS</li>
+              <li class="list_item">JAVASCRIPT</li>
+              <li class="list_item">PYTHON</li>
             </ul>
           </div>
-        </section>
-        <section class="collapsible footer__section">
-          <div class="collapsible__header">
-            <h2 class="collapsible__heading footer__heading">Support</h2>
-            <svg class="icon icon--white collapsible__chevron">
-              <use href="images/sprite.svg#chevron"></use>
+        </session>
+        <session class="colappsible footer__session">
+          <header class="colappsible__header">
+            <h2 class="colappsible__heading footer__heading">CSS Complex</h2>
+            <svg class="icon icon--primary colappsible__chevron">
+              <use xlink:href="/images/sprite.svg#chevron"></use>
             </svg>
-          </div>
-          <div class="collapsible__content">
-            <ul class="list1">
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Knowledge Base</a></li>
-              <li><a href="#">FAQ</a></li>
+          </header>
+          <div class="colapssible__content">
+            <ul class="list">
+              <li class="list_item">HTML</li>
+              <li class="list_item">CSS</li>
+              <li class="list_item">JAVASCRIPT</li>
+              <li class="list_item">PYTHON</li>
             </ul>
           </div>
-        </section>
-        <section class="collapsible footer__section">
-          <div class="collapsible__header">
-            <h2 class="collapsible__heading footer__heading">Domains</h2>
-            <svg class="icon icon--white collapsible__chevron">
-              <use href="images/sprite.svg#chevron"></use>
-            </svg>
-          </div>
-          <div class="collapsible__content">
-            <ul class="list1">
-              <li><a href="#">Domain Checker</a></li>
-              <li><a href="#">Domain Transfer</a></li>
-              <li><a href="#">Free Domain</a></li>
-            </ul>
-          </div>
-        </section>
-        <div class="footer__brand">
-          <img src="images/logo.svg" alt="" />
-          <p class="footer__copyright">Copyright 2020 Mosh Hamedani</p>
-        </div>
+        </session>
+        <session class="footer__brand">
+          <img src="/images/logo.svg" />
+          <p class="footer__coppyright">Copyright 2020 Micheal Nguyen</p>
+        </session>
       </div>
+      <script src="/css/main.js"></script>
     </footer>
-    <script src="js/main.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>
