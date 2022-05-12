@@ -8,3 +8,7 @@
   justify-content: center;
   flex-shrink: 1;
 }
+.board_question_heading {
+  text-align: center;
+  font-size: 3rem;
+}

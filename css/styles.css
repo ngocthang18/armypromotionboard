@@ -19,6 +19,7 @@ body {
   font-size: 2rem;
   margin-left: 1rem;
   color: var(--color-body);
+
 }
 h1 {
   font-size: 3rem;
@@ -125,8 +126,10 @@ a:hover {
   }
 }
 /* list */
+
 .list {
   font-style: none;
+;
 }
 .list--inline {
   display: flex;
@@ -142,25 +145,56 @@ a:hover {
   }
 }
 /*nav*/
-.nav .list {
-  background: wheat;
+.nav{
+  text-align: center; 
+  background: var(--color-secondary);
+  overflow: visible;
 }
 .nav__items {
   list-style: none;
   cursor: pointer;
+  width: 150px;
+  padding: 15px;
+  border-radius: 3px;
+  
 }
-
+.nav__items a{
+  color: white;
+}
+.first__items, .nav__items:hover{
+  background: #159ab2;
+}
+.sub__nav{
+  display: none;
+}
+.nav__items:hover .sub__nav{
+  display: block;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.nav__items:hover .sub__nav .sub__list{
+  background: #00d9ff;
+  width: 150px;
+  list-style: none;
+  padding: 1rem;
+  color: #fff;
+  
+}
+.nav__items:hover .sub__nav .sub__list .sub__items:hover{
+  background: #159ab2;
+}
 /*background*/
 .background {
   margin-top: 0;
   padding-top: 0;
-  max-width: 100%;
+  max-width: 100%;;
 }
 .background__page {
   width: 100%;
   height: 80%;
   object-fit: cover;
-  position: relative;
+
 }
 .background__heading {
   position: absolute;
@@ -610,7 +644,7 @@ a:hover {
   font-size: 2.1rem;
   color: white;
   opacity: 0.3;
-}
+} 
 @media screen and (max-width: 768px) {
   .footer__sessions .grid {
     grid-template-columns: repeat(3, 1fr);
